@@ -10,15 +10,15 @@ export default function Header() {
     const pathname = usePathname()
 
     return (
-        <header className="w-full bg-gray-50 py-4 sticky top-0">
+        <header className="w-full py-6 sticky top-0">
             <div className="max-w-249.5 w-[90%] m-auto flex items-center justify-between">
-                <p className="text-xl font-bold"><Link href={'/'}>Muhammadqodir</Link></p>
+                <p className="text-2xl font-bold"><Link href={'/'}>Muhammadqodir</Link></p>
 
-                <ul className="flex items-center gap-8">
-                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 ${pathname === '/' ? "text-gray-800" : "text-gray-500"}`} href={'/'}>Home</Link></li>
-                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 ${pathname === '/about' ? "text-gray-800" : "text-gray-500"}`} href={'/about'}>About</Link></li>
-                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 ${pathname === '/work' ? "text-gray-800" : "text-gray-500"}`} href={'/'}>Work</Link></li>
-                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 ${pathname === '/contact' ? "text-gray-800" : "text-gray-500"}`} href={'/'}>Contact</Link></li>
+                <ul className="flex items-center gap-7">
+                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 text-lg ${pathname === '/' ? "text-gray-800" : "text-gray-500"}`} href={'/'}>Home</Link></li>
+                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 text-lg ${pathname === '/about' ? "text-gray-800" : "text-gray-500"}`} href={'/about'}>About</Link></li>
+                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 text-lg ${pathname === '/work' ? "text-gray-800" : "text-gray-500"}`} href={'/'}>Work</Link></li>
+                    <li><Link className={`text-gray-600 hover:text-gray-500 transition delay-75 text-lg ${pathname === '/contact' ? "text-gray-800" : "text-gray-500"}`} href={'/'}>Contact</Link></li>
                 </ul>
             </div>
         </header>
