@@ -16,7 +16,7 @@ export default function Hero() {
             </div>
 
             <div>
-                <Image className="w-70 h-70 rounded-full object-cover" src="/assets/hero-image.jpg" alt="hero image" width={300} height={300} />
+                <Image className="w-70 h-70 rounded-full object-cover" src="/assets/hero-img.jpg" alt="hero image" width={300} height={300} />
             </div>
         </div>
     )
