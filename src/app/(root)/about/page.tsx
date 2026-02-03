@@ -1,9 +1,10 @@
 // next
+import ImageLoader from "@/components/Image";
 import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title:"About me"
+    title: "About me"
 }
 
 export default function Page() {
@@ -17,8 +18,8 @@ export default function Page() {
                 <p className="text-gray-600 font-semibold">Hello, my name is Muhammadqodir, a Software Engineer from Uzbekistan.</p>
 
                 {/* about IT Park */}
-                <div className="flex flex-col gap-5">
-                    <Image className="w-full" src="/assets/Itpark.jpg" alt="IT PARK" width={500} height={500} />
+                <div className="flex flex-col gap-5 relative">
+                    <ImageLoader className="w-full" src="/assets/Itpark.jpg" alt="IT PARK" width={500} height={500} />
                     <p className="text-gray-600 font-semibold">I completed a frontend course at IT PARK School.</p>
                 </div>
             </div>

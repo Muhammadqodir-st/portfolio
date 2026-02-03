@@ -1,6 +1,7 @@
 // next
 import Image from "next/image";
 import Link from "next/link";
+import ImageLoader from "./Image";
 
 export default function Hero() {
     return (
@@ -16,8 +17,8 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div>
-                <Image className="w-70 h-70 rounded-full object-cover" src="/assets/hero-img.jpg" alt="hero image" width={300} height={300} />
+            <div className="w-70 h-70 relative">
+                <ImageLoader className="w-70 h-70 object-cover rounded-full" src="/assets/hero-img.jpg" alt="image" width={300} height={300} />
             </div>
         </div>
     )
