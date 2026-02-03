@@ -1,4 +1,10 @@
+// next
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+    title:"About me"
+}
 
 export default function Page() {
     return (
@@ -8,12 +14,12 @@ export default function Page() {
             </div>
 
             <div className="max-w-159.5 py-8 m-auto flex flex-col gap-5">
-                <p className="text-gray-600 font-semibold">I am Muhammadqodir, a frontend developer from Uzbekistan. I currently live in the Andijan region of Uzbekistan.</p>
+                <p className="text-gray-600 font-semibold">Hello, my name is Muhammadqodir, a Software Engineer from Uzbekistan.</p>
 
                 {/* about IT Park */}
                 <div className="flex flex-col gap-5">
                     <Image className="w-full" src="/assets/Itpark.jpg" alt="IT PARK" width={500} height={500} />
-                    <p className="text-gray-600 font-semibold">I graduated from the frontend course at IT PARK School. Despite my young age, I have gained enough knowledge. Currently, I teach frontend courses to children at the school where I graduated.</p>
+                    <p className="text-gray-600 font-semibold">I completed a frontend course at IT PARK School.</p>
                 </div>
             </div>
         </div>
