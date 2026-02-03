@@ -1,7 +1,6 @@
 // next
 import ImageLoader from "@/components/Image";
 import { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
     title: "About me"
@@ -15,7 +14,7 @@ export default function Page() {
             </div>
 
             <div className="max-w-159.5 py-8 m-auto flex flex-col gap-5">
-                <p className="text-gray-600 font-semibold">Hello, my name is Muhammadqodir, a Software Engineer from Uzbekistan.</p>
+                <p className="text-gray-600 font-semibold">Hello, my name is Muhammadqodir, I am a software engineer from Uzbekistan. I am currently 17 years old.</p>
 
                 {/* about IT Park */}
                 <div className="flex flex-col gap-5 relative">
