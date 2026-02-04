@@ -1,11 +1,10 @@
 // next
-import Image from "next/image";
 import Link from "next/link";
 import ImageLoader from "./Image";
 
 export default function Hero() {
     return (
-        <div className="w-full h-full flex items-center justify-between">
+        <div className="w-full h-full flex items-center justify-between max-[820px]:flex-col-reverse max-[820px]:justify-center gap-5">
             <div className="flex flex-col items-start gap-3">
                 <p className="text-lg font-bold">HELLO</p>
                 <p className="text-5xl font-bold">I'm <span className="text-indigo-600">Muhammadqodir</span></p>

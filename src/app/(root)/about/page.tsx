@@ -13,7 +13,7 @@ export default function Page() {
                 <p className="text-center text-4xl font-semibold">ABOUT ME</p>
             </div>
 
-            <div className="max-w-159.5 py-8 m-auto flex flex-col gap-5">
+            <div className="max-w-159.5 w-[90%] py-8 m-auto flex flex-col gap-5">
                 <p className="text-gray-600 font-semibold">Hello, my name is Muhammadqodir, I am a software engineer from Uzbekistan. I am currently 17 years old.</p>
 
                 {/* about IT Park */}
